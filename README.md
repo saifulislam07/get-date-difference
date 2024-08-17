@@ -3,15 +3,20 @@ The getDateDifference function calculates the time difference between the curren
 
 
 1. Install the Package
+
+
 Step 1.1: Require your package in your Laravel project using Composer.
-bash
-Copy code
+
+
+
 composer require saifulDev/get-date-difference
+
+
+
 2. Use the Package in Your Laravel Application
 Step 2.1: Import the class and use it in your Laravel code. Here’s an example of how you might call the calculateDifference method in a controller:
 
-php
-Copy code
+
 <?php
 
 namespace App\Http\Controllers;
@@ -35,23 +40,27 @@ class DateController extends Controller
         return response()->json(['difference' => $difference]);
     }
 }
+
+
+
 3. Register the Service Provider (if applicable)
 If your package includes a service provider and you want to use it, register it in the config/app.php file under the providers array.
 
-php
-Copy code
+
 'providers' => [
     // Other service providers
 
     SaifulDev\GetDateDifference\GetDateDifferenceServiceProvider::class,
 ],
+
+
 4. Test the Integration
 Step 4.1: Make sure to test the functionality in your application to ensure everything works as expected.
+
 Example Usage in a Route
 To quickly test the package, you might set up a route in routes/web.php:
 
-php
-Copy code
+
 use App\Http\Controllers\DateController;
 
 Route::get('/date-difference', [DateController::class, 'showDifference']);
