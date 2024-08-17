@@ -52,10 +52,7 @@
     },
     "extra": {
         "laravel": {
-            "dont-discover": [],
-            "providers": [
-                "saifuldev\\GetDateDifference\\GetDateDifferenceServiceProvider"
-            ]
+            "dont-discover": []
         }
     },
     "config": {
