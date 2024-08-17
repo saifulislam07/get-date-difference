@@ -1,0 +1,24 @@
+{
+    "name": "saifuldev/date-difference",
+    "description": "A Laravel package to calculate date differences.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "saifuldev\\DateDifference\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "illuminate/support": "^8.0|^9.0|^10.0",
+        "nesbot/carbon": "^2.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "saifuldev\\DateDifference\\DateDifferenceServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
