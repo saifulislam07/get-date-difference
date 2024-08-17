@@ -35,4 +35,9 @@ class DateDifference
             return $diffInYears . ' year';
         }
     }
+
+    public static function calculateDifference(Request $request)
+    {
+        // Function implementation
+    }
 }

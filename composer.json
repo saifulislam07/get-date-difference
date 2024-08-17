@@ -1,7 +1,6 @@
 {
-    "name": "laravel/laravel",
-    "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
+    "name": "saifuldev/get-date-difference",
+    "description": "A package to calculate date differences.",
     "keywords": [
         "laravel",
         "framework"
@@ -27,7 +26,8 @@
         "psr-4": {
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/"
+            "Database\\Seeders\\": "database/seeders/",
+            "Saifuldev\\GetDateDifference\\": "src/"
         }
     },
     "autoload-dev": {
